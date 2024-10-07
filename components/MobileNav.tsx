@@ -13,7 +13,7 @@ import { sidebarLinks } from '@/constants'
 import { cn } from '@/lib/utils'
 
 
-const MobileNav = () => {
+const MobileNav = ({ user }: MobileNavProps) => {
   const pathName = usePathname()
 
   return (
